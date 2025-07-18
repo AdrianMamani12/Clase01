@@ -1,0 +1,261 @@
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Autos Modernos - Tienda de Autos Oscuros
+  </title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+  <header>
+   <div class="nav-container">
+    <a class="logo" href="#">
+     Autos Modernos
+    </a>
+    <nav>
+     <ul>
+      <li>
+       <a class="active" href="#autos">
+        Autos
+       </a>
+      </li>
+      <li>
+       <a href="#nosotros">
+        Nosotros
+       </a>
+      </li>
+      <li>
+       <a href="#contacto">
+        Contacto
+       </a>
+      </li>
+     </ul>
+    </nav>
+    <button aria-label="Abrir menú" class="menu-btn" id="menu-btn">
+     <i class="fas fa-bars">
+     </i>
+    </button>
+   </div>
+   <div aria-hidden="true" class="mobile-menu" id="mobile-menu">
+    <ul>
+     <li>
+      <a class="active" href="#autos">
+       Autos
+      </a>
+     </li>
+     <li>
+      <a href="#nosotros">
+       Nosotros
+      </a>
+     </li>
+     <li>
+      <a href="#contacto">
+       Contacto
+      </a>
+     </li>
+    </ul>
+   </div>
+  </header>
+  <main>
+   <section aria-label="Bienvenida" class="hero">
+    <h1>
+     Autos Modernos
+    </h1>
+    <p>
+     Descubre nuestra exclusiva colección de autos oscuros, elegantes y con tecnología de punta. El futuro de la conducción está aquí.
+    </p>
+    <button class="btn-primary" onclick="document.getElementById('autos').scrollIntoView({behavior:'smooth'})">
+     Ver Autos
+    </button>
+   </section>
+   <section aria-label="Nuestros autos" class="cars-section" id="autos">
+    <h2>
+     Nuestros Autos
+    </h2>
+    <div class="cars-grid">
+     <article aria-label="Auto deportivo negro con diseño aerodinámico y luces LED rojas" class="car-card" tabindex="0">
+      <img alt="Auto deportivo negro con diseño aerodinámico y luces LED rojas" class="car-image" height="250" src="https://storage.googleapis.com/a1aa/image/c3903816-b865-4d66-bce3-4ccef37bfb8f.jpg" width="400"/>
+      <div class="car-info">
+       <h3 class="car-title">
+        Deportivo Eclipse
+       </h3>
+       <p class="car-description">
+        Velocidad y estilo en un auto negro mate con tecnología LED avanzada y motor turbo.
+       </p>
+       <span class="car-price">
+        $85,000
+       </span>
+      </div>
+     </article>
+     <article aria-label="SUV negro brillante con rines deportivos y parrilla frontal agresiva" class="car-card" tabindex="0">
+      <img alt="SUV negro brillante con rines deportivos y parrilla frontal agresiva" class="car-image" height="250" src="https://storage.googleapis.com/a1aa/image/f85aa744-7946-45ad-6b45-39a2b8588505.jpg" width="400"/>
+      <div class="car-info">
+       <h3 class="car-title">
+        SUV Shadow
+       </h3>
+       <p class="car-description">
+        Comodidad y potencia en un SUV negro brillante con interiores de lujo y tecnología inteligente.
+       </p>
+       <span class="car-price">
+        $65,000
+       </span>
+      </div>
+     </article>
+     <article aria-label="Sedán negro con acabado metálico y faros delanteros estilizados" class="car-card" tabindex="0">
+      <img alt="Sedán negro con acabado metálico y faros delanteros estilizados" class="car-image" height="250" src="https://storage.googleapis.com/a1aa/image/7f3b8072-59ab-4af6-648a-fd2f0f5882c3.jpg" width="400"/>
+      <div class="car-info">
+       <h3 class="car-title">
+        Sedán Noir
+       </h3>
+       <p class="car-description">
+        Elegancia y eficiencia en un sedán con acabado metálico y tecnología híbrida.
+       </p>
+       <span class="car-price">
+        $45,000
+       </span>
+      </div>
+     </article>
+     <article aria-label="Camioneta negra con diseño robusto y luces LED delanteras modernas" class="car-card" tabindex="0">
+      <img alt="Camioneta negra con diseño robusto y luces LED delanteras modernas" class="car-image" height="250" src="https://storage.googleapis.com/a1aa/image/fae96058-b837-40cf-b00b-ea81a904a3e0.jpg" width="400"/>
+      <div class="car-info">
+       <h3 class="car-title">
+        Camioneta Titan
+       </h3>
+       <p class="car-description">
+        Robustez y tecnología en una camioneta negra con capacidad para todo terreno y estilo agresivo.
+       </p>
+       <span class="car-price">
+        $55,000
+       </span>
+      </div>
+     </article>
+     <article aria-label="Auto eléctrico negro con diseño futurista y luces azules" class="car-card" tabindex="0">
+      <img alt="Auto eléctrico negro con diseño futurista y luces azules" class="car-image" height="250" src="https://storage.googleapis.com/a1aa/image/ff05f432-14f9-4a78-5ff7-fc69418d0377.jpg" width="400"/>
+      <div class="car-info">
+       <h3 class="car-title">
+        Electro Phantom
+       </h3>
+       <p class="car-description">
+        Innovación y sostenibilidad en un auto eléctrico negro con diseño futurista y autonomía extendida.
+       </p>
+       <span class="car-price">
+        $90,000
+       </span>
+      </div>
+     </article>
+     <article aria-label="Convertible negro con interior rojo y diseño deportivo elegante" class="car-card" tabindex="0">
+      <img alt="Convertible negro con interior rojo y diseño deportivo elegante" class="car-image" height="250" src="https://storage.googleapis.com/a1aa/image/e392c3f0-d73e-4ec7-e98d-8c5a0e9fdf9c.jpg" width="400"/>
+      <div class="car-info">
+       <h3 class="car-title">
+        Convertible Vortex
+       </h3>
+       <p class="car-description">
+        Disfruta la libertad con este convertible negro, interior rojo y motor potente.
+       </p>
+       <span class="car-price">
+        $75,000
+       </span>
+      </div>
+     </article>
+     <article aria-label="Hatchback negro con diseño compacto y luces LED delanteras modernas" class="car-card" tabindex="0">
+      <img alt="Hatchback negro con diseño compacto y luces LED delanteras modernas" class="car-image" height="250" src="https://storage.googleapis.com/a1aa/image/04f29b8f-22f3-40ce-3e6a-e11b701c5aef.jpg" width="400"/>
+      <div class="car-info">
+       <h3 class="car-title">
+        Hatchback Stealth
+       </h3>
+       <p class="car-description">
+        Compacto y ágil, ideal para la ciudad con estilo negro mate y tecnología avanzada.
+       </p>
+       <span class="car-price">
+        $30,000
+       </span>
+      </div>
+     </article>
+     <article aria-label="Camioneta pickup negra con diseño robusto y parrilla frontal agresiva" class="car-card" tabindex="0">
+      <img alt="Camioneta pickup negra con diseño robusto y parrilla frontal agresiva" class="car-image" height="250" src="https://storage.googleapis.com/a1aa/image/88afc36f-9ae4-4fd4-7d85-d4c45f520d3e.jpg" width="400"/>
+      <div class="car-info">
+       <h3 class="car-title">
+        Pickup Blackhawk
+       </h3>
+       <p class="car-description">
+        Potencia y resistencia en una pickup negra con diseño agresivo y capacidad para trabajo pesado.
+       </p>
+       <span class="car-price">
+        $60,000
+       </span>
+      </div>
+     </article>
+    </div>
+   </section>
+   <section aria-label="Sobre nosotros" class="about-section" id="nosotros">
+    <h2>
+     Sobre Nosotros
+    </h2>
+    <p>
+     En Autos Modernos nos especializamos en ofrecer vehículos con diseños oscuros, modernos y tecnología de última generación. Nuestro compromiso es brindarte autos que combinan elegancia, potencia y sostenibilidad para que conduzcas con estilo y confianza.
+    </p>
+   </section>
+   <section aria-label="Formulario de contacto" class="contact-section" id="contacto">
+    <h2>
+     Contacto
+    </h2>
+    <form action="#" method="POST" novalidate="">
+     <label for="nombre">
+      Nombre
+     </label>
+     <input autocomplete="name" id="nombre" name="nombre" placeholder="Tu nombre" required="" type="text"/>
+     <label for="email">
+      Correo Electrónico
+     </label>
+     <input autocomplete="email" id="email" name="email" placeholder="tu@email.com" required="" type="email"/>
+     <label for="mensaje">
+      Mensaje
+     </label>
+     <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí" required=""></textarea>
+     <button class="btn-submit" type="submit">
+      Enviar Mensaje
+     </button>
+    </form>
+   </section>
+  </main>
+  <footer>
+   <p>
+    © 2024 Autos Modernos. Todos los derechos reservados.
+   </p>
+   <div aria-label="Redes sociales" class="social-icons" role="list">
+    <a aria-label="Facebook" href="#">
+     <i class="fab fa-facebook-f">
+     </i>
+    </a>
+    <a aria-label="Instagram" href="#">
+     <i class="fab fa-instagram">
+     </i>
+    </a>
+    <a aria-label="Twitter" href="#">
+     <i class="fab fa-twitter">
+     </i>
+    </a>
+   </div>
+  </footer>
+  <script>
+   const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      const isShown = mobileMenu.classList.toggle('show');
+      mobileMenu.setAttribute('aria-hidden', !isShown);
+    });
+
+    // Close mobile menu on link click
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.remove('show');
+        mobileMenu.setAttribute('aria-hidden', 'true');
+      });
+    });
+  </script>
+ </body>
+</html>
